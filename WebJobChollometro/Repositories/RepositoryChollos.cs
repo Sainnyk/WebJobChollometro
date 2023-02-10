@@ -48,7 +48,7 @@ namespace WebJobChollometro.Repositories
 
             request.UserAgent = @"Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)";
 
-            request.Host = @"chollometro.com";
+            request.Host = @"www.chollometro.com";
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
             //Lo que nos da es un Stream, Debemos convertir dicho flujo en un String de XML
             string xmlData = "";

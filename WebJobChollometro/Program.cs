@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using WebJobChollometro.Data;
 using WebJobChollometro.Repositories;
 
-string connectionString = "Data Source=LOCALHOST\\SQLEXPRESS;Initial Catalog=HOSPITAL;Persist Security Info=True;User ID=SA";
+string connectionString = "Data Source=sqleoialex.database.windows.net;Initial Catalog=EOIAZURE;Persist Security Info=True;User ID=adminsql;Password=Admin123";
 
 var provider = new ServiceCollection()
     .AddTransient<RepositoryChollos>()
